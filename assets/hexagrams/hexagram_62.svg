@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="300" height="360" viewBox="0 0 300 360" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg-62" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fee4e5" />
+      <stop offset="55%" stop-color="#e6f2ff" />
+      <stop offset="100%" stop-color="#f9e3ff" />
+    </linearGradient>
+    <filter id="noise" x="0" y="0">
+      <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" result="noise" />
+      <feColorMatrix type="matrix" values="0 0 0 0 0.2  0 0 0 0 0.18  0 0 0 0 0.25  0 0 0 0.05 0" />
+    </filter>
+    <filter id="glow" x="-10" y="-10" width="140" height="140">
+      <feGaussianBlur stdDeviation="2.2" result="coloredBlur" />
+      <feMerge>
+        <feMergeNode in="coloredBlur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+  </defs>
+  <rect x="0" y="0" width="300" height="360" fill="url(#bg-62)" rx="32" />
+  <rect x="12" y="12" width="276" height="336" rx="28" fill="rgba(255,255,255,0.35)" />
+  <rect x="18" y="18" width="264" height="324" rx="24" fill="rgba(255,255,255,0.42)" filter="url(#noise)" opacity="0.35" />
+  <circle cx="121.25" cy="329.89" r="2.64" fill="white" opacity="0.63" />
+<circle cx="139.59" cy="147.75" r="2.22" fill="white" opacity="0.69" />
+<circle cx="259.64" cy="32.30" r="2.75" fill="white" opacity="0.55" />
+<circle cx="72.20" cy="220.82" r="2.24" fill="white" opacity="0.69" />
+<circle cx="99.39" cy="66.43" r="2.25" fill="white" opacity="0.46" />
+<circle cx="91.11" cy="302.68" r="2.99" fill="white" opacity="0.72" />
+<circle cx="141.09" cy="243.06" r="2.48" fill="white" opacity="0.55" />
+<circle cx="32.01" cy="74.05" r="2.50" fill="white" opacity="0.69" />
+<circle cx="118.10" cy="207.37" r="1.21" fill="white" opacity="0.38" />
+<circle cx="209.86" cy="295.85" r="2.99" fill="white" opacity="0.48" />
+<circle cx="212.47" cy="215.39" r="1.70" fill="white" opacity="0.65" />
+<circle cx="255.49" cy="247.44" r="2.16" fill="white" opacity="0.37" />
+  <text x="50%" y="58" text-anchor="middle" font-family="'Nunito', 'Segoe UI', sans-serif" font-size="18" fill="rgba(25, 20, 38, 0.82)">
+    Hexagram 62
+  </text>
+  <text x="50%" y="86" text-anchor="middle" font-family="'Nunito', 'Segoe UI', sans-serif" font-size="14" fill="rgba(25, 20, 38, 0.66)">
+    Hsiao Kuo / Preponderance of the Small
+  </text>
+  
+    <rect x="40" y="50" width="90" height="10" rx="6" fill="rgba(25, 20, 38, 0.78)" filter="url(#glow)" />
+    <rect x="170" y="50" width="90" height="10" rx="6" fill="rgba(25, 20, 38, 0.78)" filter="url(#glow)" />
+  
+
+    <rect x="40" y="78" width="90" height="10" rx="6" fill="rgba(25, 20, 38, 0.78)" filter="url(#glow)" />
+    <rect x="170" y="78" width="90" height="10" rx="6" fill="rgba(25, 20, 38, 0.78)" filter="url(#glow)" />
+  
+<rect x="40" y="106" width="220" height="10" rx="6" fill="rgba(25, 20, 38, 0.88)" filter="url(#glow)" />
+<rect x="40" y="134" width="220" height="10" rx="6" fill="rgba(25, 20, 38, 0.88)" filter="url(#glow)" />
+
+    <rect x="40" y="162" width="90" height="10" rx="6" fill="rgba(25, 20, 38, 0.78)" filter="url(#glow)" />
+    <rect x="170" y="162" width="90" height="10" rx="6" fill="rgba(25, 20, 38, 0.78)" filter="url(#glow)" />
+  
+
+    <rect x="40" y="190" width="90" height="10" rx="6" fill="rgba(25, 20, 38, 0.78)" filter="url(#glow)" />
+    <rect x="170" y="190" width="90" height="10" rx="6" fill="rgba(25, 20, 38, 0.78)" filter="url(#glow)" />
+  
+</svg>
